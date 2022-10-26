@@ -1,0 +1,45 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    background-image:url('');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    height: 100px;
+    width: 170px;
+}
+
+#val{
+text-align: center;
+}
+
+input{
+    display: flex;
+    margin-left: 30px;
+    height: 10px;
+    width: 10px;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-style: none;
+}
+.body{
+    padding: 5px;
+}
