@@ -4,34 +4,34 @@ const val = document.querySelector("#val");
 const input = document.querySelector("input")
 
 
-let num= 0;
+let value= 0;
 
 
 
 function add(){
-    if (input.num.length != 0) {
-        num += Math.abs(Number(input.num))
-        val.innerHTML = num
+    if (input.value.length != 0) {
+        value += Math.abs(Number(input.value))
+        val.innerHTML = value
     }
     else {
-        num++
-        val.innerHTML = num
+        value++
+        val.innerHTML = value
     }
 
 }
 function res(){
-    num = 0
-    val.innerHTML=num
-    input.num = ""
+    value = 0
+    val.innerHTML=value
+    input.value = ""
 }
 function sub(){
-    if (input.num.length != 0) {
-        num -= Math.abs(Number(input.num))
-        val.innerHTML = num
+    if (input.value.length != 0) {
+        value -= Math.abs(Number(input.value))
+        val.innerHTML = value
     }
     else {
-        num--
-        val.innerHTML = num
+        value--
+        val.innerHTML = value
     }
 }
 
