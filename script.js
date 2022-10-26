@@ -1,9 +1,10 @@
-let num= 0;
+let num = input;
 
 const value = document.querySelector("#val");
 const plus = document.querySelector("#increase");
 const minus = document.querySelector("#decrease");
 const reset = document.querySelector("#reset")
+const input = document.innerHTML("input")
 
 function add(){
     num+=1;
