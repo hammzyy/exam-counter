@@ -20,10 +20,14 @@ function add(){
 
 }
 function res(){
-    value = 0
-    val.innerHTML=value
-    input.value = ""
-}
+    value=0;
+    value.innerHTML = value;
+};
+// function res(){
+//     value = 0
+//     val.innerHTML=value
+//     input.value = ""
+// }
 function sub(){
     if (input.value.length != 0) {
         value -= Math.abs(Number(input.value))
